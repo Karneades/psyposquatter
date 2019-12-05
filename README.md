@@ -127,6 +127,10 @@ and [different](https://www.theregister.co.uk/2017/08/02/typosquatting_npm/)
 [about](https://threatpost.com/attackers-use-typo-squatting-to-steal-npm-credentials/127235/)
 the incident.
 
+An example from 2019 - there's a typo package for dateutil in PyPI ([Github issue](https://github.com/dateutil/dateutil/issues/984))
+
+> There is a fake version of this package called python3-dateutil on PyPI that contains additional imports of the jeIlyfish package (itself a fake version of the jellyfish package, that first L is an I). That package in turn contains malicious code starting at line 313 in jeIlyfish/_jellyfish.py
+
 ## Related projects
 
 * [https://incolumitas.com/2016/06/08/typosquatting-package-managers/](https://incolumitas.com/2016/06/08/typosquatting-package-managers/)
