@@ -131,6 +131,19 @@ An example from 2019 - there's a typo package for dateutil in PyPI ([Github issu
 
 > There is a fake version of this package called python3-dateutil on PyPI that contains additional imports of the jeIlyfish package (itself a fake version of the jellyfish package, that first L is an I). That package in turn contains malicious code starting at line 313 in jeIlyfish/_jellyfish.py
 
+In April 2020, _The Hacker News_ published a story about [Over 700 Malicious Typosquatted Libraries Found On RubyGems Repository](https://thehackernews.com/2020/04/rubygem-typosquatting-malware.html), citation from the blog post:
+
+> As developers increasingly embrace off-the-shelf software components 
+into their apps and services, threat actors are abusing open-source 
+repositories such as RubyGems to distribute malicious packages, intended
+ to compromise their computers or backdoor software projects they work 
+on.
+>
+>In the latest research shared with The Hacker News, cybersecurity experts at ReversingLabs revealed over 700 malicious gems
+ — packages written in Ruby programming language — that supply chain 
+attackers were caught recently distributing through the RubyGems 
+repository.
+
 ## Related projects
 
 * [https://incolumitas.com/2016/06/08/typosquatting-package-managers/](https://incolumitas.com/2016/06/08/typosquatting-package-managers/)
