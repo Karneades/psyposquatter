@@ -144,6 +144,10 @@ on.
 attackers were caught recently distributing through the RubyGems 
 repository.
 
+In October 2021, a typo package for mitmproxy was in PyPI which includes an RCE ([Tweet](https://twitter.com/maximilianhils/status/1447525552370458625), [article on bleepingcomputer](https://www.bleepingcomputer.com/news/security/pypi-removes-mitmproxy2-over-code-execution-concerns/)).
+
+> Copycat package could trick devs into falling for 'newer' version
+
 ## Related projects
 
 * [https://incolumitas.com/2016/06/08/typosquatting-package-managers/](https://incolumitas.com/2016/06/08/typosquatting-package-managers/)
