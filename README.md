@@ -148,6 +148,10 @@ In October 2021, a typo package for mitmproxy was in PyPI which includes an RCE 
 
 > Copycat package could trick devs into falling for 'newer' version
 
+Further articles from October 2021 about typosquatting NPM packages: [NPM packages disguised as Roblox API code caught carrying ransomware [possible prank, but packages have multiple downloads]](https://www.theregister.com/2021/10/27/npm_roblox_ransomware/) and [Newly Found npm Malware Mines Cryptocurrency on Windows, Linux, macOS Devices](https://blog.sonatype.com/newly-found-npm-malware-mines-cryptocurrency-on-windows-linux-macos-devices).
+
+> The two poisoned libraries – noblox.js-proxy and noblox.js-proxies – were typosquatting (named to be confusingly similar to) noblox.js, a Roblox game API wrapper available on NPM and as a standalone download.
+
 ## Related projects
 
 * [https://incolumitas.com/2016/06/08/typosquatting-package-managers/](https://incolumitas.com/2016/06/08/typosquatting-package-managers/)
